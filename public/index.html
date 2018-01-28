@@ -42,13 +42,13 @@
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h1 class="text-uppercase">
-              <strong>Ship your merchandise quickly</strong>
+              <strong>Ship your merchandise everywhere</strong>
             </h1>
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">Convargo is the best way to ship your merchandise easily and quickly</p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+            <p class="text-faded mb-5">Convargo is the best way to ship your merchandise easily, quickly and everywhere!</p>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#services">Find Out More</a>
           </div>
         </div>
       </div>
@@ -58,23 +58,64 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <div id="trucker" class="container">
-              <input class="name btn" type="text" placeholder="Trucker name"/>
-              <input class="price-by-km btn" type="number" placeholder="Price by km"/>
-              <input class="price-by-cubic btn" type="number" placeholder="Price by m3"/>
-            </div>
-            <hr>
-            <div id="shipper" class="container">
-              <input class="name btn" type="text" placeholder="Shipper name"/>
-              <input class="distance btn" type="number" placeholder="Distance in km"/>
-              <input class="volume btn" type="number" placeholder="Volume in m3"/>
-              <input class="option btn" type="checkbox" placeholder="Deductible option"/>
-            </div>
-            <div id="actors"></div>
-            <script src="convargo.js"></script>
-            <script src="index.js"></script>
+            <h2 class="section-heading text-white">At Your Service</h2>
+            <hr class="light my-4">
           </div>
-          <button id="compute" class="btn">Compute</button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <div id="trucker" class="container">
+                <label class="cols-sm-2 control-label text-white">Trucker name</label>
+                <input class="name btn" type="text" placeholder="Trucker name"/>
+                <hr>
+                <label class="cols-sm-2 control-label text-white">Price by km</label>
+                <input class="price-by-km btn" type="number" placeholder="Price by km"/>
+                <hr>
+                <label class="cols-sm-2 control-label text-white">Price by m3</label>
+                <input class="price-by-cubic btn" type="number" placeholder="Price by m3"/>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <div id="shipper" class="container">
+                <label class="cols-sm-2 control-label text-white">Shipper name</label>
+                <input class="name btn" type="text" placeholder="Shipper name"/>
+                <hr>
+                <label class="cols-sm-2 control-label text-white">Distance in km</label>
+                <input class="distance btn" type="number" placeholder="Distance in km"/>
+                <hr>
+                <label class="cols-sm-2 control-label text-white">Volume in m3</label>
+                <input class="volume btn" type="number" placeholder="Volume in m3"/>
+                <hr>
+                <label class="cols-sm-2 control-label text-white">Deductible option</label>
+                <input class="option btn" type="checkbox" placeholder="Deductible option"/>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <hr>
+              <hr>
+              <hr>
+              <hr>
+              <hr>
+              <hr>
+              <button id="compute" class="btn btn-light btn-xl">Compute</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto text-white">
+              <hr>
+              <hr>
+              <hr>
+              <hr>
+              <div id="actors"></div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -104,23 +145,7 @@
         </div>
       </div>
     </section>
-
-    <div id="trucker" class="container">
-              <input class="name btn" type="text" placeholder="Trucker name"/>
-              <input class="price-by-km btn" type="number" placeholder="Price by km"/>
-              <input class="price-by-cubic btn" type="number" placeholder="Price by m3"/>
-            </div>
-            <hr>
-            <div id="shipper" class="container">
-              <input class="name btn" type="text" placeholder="Shipper name"/>
-              <input class="distance btn" type="number" placeholder="Distance in km"/>
-              <input class="volume btn" type="number" placeholder="Volume in m3"/>
-              <input class="option btn" type="checkbox" placeholder="Deductible option"/>
-            </div>
-            <div id="actors"></div>
-            <script src="convargo.js"></script>
-            <script src="index.js"></script>
-            <button id="compute" class="btn">Compute</button>
+            
    
    <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -133,6 +158,9 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
+
+    <script src="convargo.js"></script>
+    <script src="index.js"></script>
 
 
   </body>
